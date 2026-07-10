@@ -1,4 +1,4 @@
-# nextjs-ai-chatbot
+﻿# Next.js AI Chatbot
 
 > A full-featured AI chatbot built on the Next.js App Router and the Vercel AI SDK.
 
