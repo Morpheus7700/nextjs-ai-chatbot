@@ -1,27 +1,27 @@
-# Chat SDK Template 💬
+# nextjs-ai-chatbot
 
-A powerful, open-source AI chatbot template built with **Next.js 14** (App Router) and the **Vercel AI SDK**. 
+> A full-featured AI chatbot built on the Next.js App Router and the Vercel AI SDK.
 
-## 🌟 Features
-- **Next.js App Router:** Advanced routing for seamless navigation and performance.
-- **React Server Components:** Optimized server-side rendering.
-- **Vercel AI SDK:** Unified API for generating text, structured objects, and handling tool calls.
-- **Database Integration:** Uses Drizzle ORM and Postgres for robust chat history persistence.
-- **Modern UI:** Styled with Tailwind CSS and shadcn/ui components.
+> **Note:** This project is built on Vercel's open-source [Chat SDK / ai-chatbot template](https://github.com/vercel/ai-chatbot). It is used here as a foundation for learning and customisation rather than an original template.
 
-## 🛠️ Tech Stack
-- Next.js 14, React 19
-- Drizzle ORM, Postgres
-- Vercel AI SDK (OpenAI, Anthropic, etc.)
+A chatbot app featuring authenticated sessions, persistent chat history, and streaming responses, using React Server Components and the Vercel AI SDK.
+
+## Features
+- Next.js App Router with React Server Components
+- Vercel AI SDK for text generation, structured output, and tool calls
+- Authentication via NextAuth
+- Chat history persistence with Drizzle ORM and Postgres
+- UI styled with Tailwind CSS and shadcn/ui
+
+## Tech Stack
+- Next.js, React, TypeScript
+- Vercel AI SDK, Drizzle ORM, Postgres
 - Tailwind CSS, Radix UI
 
-## ⚙️ Getting Started
-1. Copy `.env.example` to `.env` and add your API keys and Database URL.
-2. Run database migrations:
+## Getting Started
+1. Copy `.env.example` to `.env.local` and add your API keys and database URL.
+2. Run migrations, then start the dev server:
    ```bash
    npm run db:migrate
-   ```
-3. Start the development server:
-   ```bash
    npm run dev
    ```
